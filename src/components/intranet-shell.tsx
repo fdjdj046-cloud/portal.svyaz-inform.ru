@@ -96,7 +96,7 @@ export function IntranetShell({
       <main>{children}</main>
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-6 text-xs text-subtle md:flex-row md:items-center md:justify-between md:px-6">
-          <p>АО «Меридиан» · учебный контур · не является боевой системой</p>
+          <p>АО «Связь-Информ» · учебный контур · не является боевой системой</p>
           <p>Служба поддержки · вн. 4412</p>
         </div>
       </footer>

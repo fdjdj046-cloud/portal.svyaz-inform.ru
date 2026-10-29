@@ -40,13 +40,13 @@ function ArchivePage() {
           Акт по итогам проверки
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-mist">
-          17 сентября 2026 · учебный контур АО «Меридиан» · для преподавателя
+          17 сентября 2026 · учебный контур АО «Связь-Информ» · для преподавателя
         </p>
 
         <article className="mt-10 rounded-xl bg-sheet px-6 py-8 shadow-paper md:px-10 md:py-12">
           <div className="flex items-start justify-between gap-4 border-b border-line pb-6">
             <div>
-              <p className="font-display text-2xl tracking-tight">Меридиан</p>
+              <p className="font-display text-2xl tracking-tight">Связь-Информ</p>
               <p className="mt-1 text-xs uppercase tracking-[0.14em] text-mist">
                 Управление информационной безопасности
               </p>

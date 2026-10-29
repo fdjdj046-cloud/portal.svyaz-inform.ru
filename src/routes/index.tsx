@@ -26,7 +26,7 @@ function LoginPage() {
       <section className="relative isolate min-h-[38vh] overflow-hidden md:min-h-dvh">
         <img
           src="/images/hq.jpg"
-          alt="Штаб-квартира АО «Меридиан»"
+          alt="Штаб-квартира АО «Связь-Информ»"
           className="absolute inset-0 size-full object-cover"
         />
         <div className="absolute inset-0 bg-accent/55" />
@@ -35,14 +35,14 @@ function LoginPage() {
           <Wordmark light />
           <div className="max-w-lg pb-4 rise">
             <p className="text-[11px] uppercase tracking-[0.2em] text-photo/70">
-              АО «Меридиан» · Москва, 1994
+              АО «Связь-Информ» · Москва, 1994
             </p>
             <h1 className="font-display mt-3 text-4xl leading-tight tracking-tight md:text-5xl">
               Корпоративный доступ
             </h1>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-photo/80">
               Рабочий стол сотрудников, кадровые карточки и внутренние сервисы
-              группы.
+              оператора.
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ function LoginPage() {
       <section className="flex flex-col justify-center bg-paper px-6 py-10 md:px-12">
         <div className="rise-2">
           <p className="text-[11px] uppercase tracking-[0.18em] text-mist">
-            Meridian ID
+            Связь-Информ ID
           </p>
           <h2 className="font-display mt-2 text-3xl tracking-tight">
             Вход на рабочий стол
@@ -82,7 +82,7 @@ function LoginPage() {
                   name="email"
                   type="email"
                   autoComplete="username"
-                  defaultValue="a.volkova@meridian.ru"
+                  defaultValue="a.volkova@svyaz-inform.ru"
                 />
               </div>
               <div>

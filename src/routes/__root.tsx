@@ -4,7 +4,7 @@ import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { Briefing } from "@/components/briefing";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Меридиан";
+const APP_NAME = "Связь-Информ";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       { name: "theme-color", content: "#24343c" },
       {
         name: "description",
-        content: "Корпоративный портал группы компаний «Меридиан».",
+        content: "Корпоративный портал оператора связи «Связь-Информ».",
       },
     ],
     links: [

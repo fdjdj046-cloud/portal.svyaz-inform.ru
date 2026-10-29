@@ -104,10 +104,10 @@ function PeoplePage() {
 
 function ShareField({ id }: { id: string }) {
   const navigate = useNavigate({ from: "/people" });
-  const [value, setValue] = useState(`https://one.meridian.ru/people?id=${id}`);
+  const [value, setValue] = useState(`https://portal.svyaz-inform.ru/people?id=${id}`);
 
   useEffect(() => {
-    setValue(`https://one.meridian.ru/people?id=${id}`);
+    setValue(`https://portal.svyaz-inform.ru/people?id=${id}`);
   }, [id]);
 
   return (
@@ -188,7 +188,7 @@ function ProfileCard({ id, elevated }: { id: string; elevated: boolean }) {
               <div>
                 <p className="text-sm font-medium">Платформа данных</p>
                 <p className="text-sm text-mist">
-                  Производственный контур DC-MSK-3
+                  Абонентский контур SI-MSK-3
                 </p>
               </div>
             </div>
@@ -295,7 +295,7 @@ function SupportActions() {
           <Database className="mt-0.5 size-4 shrink-0" />
           <p>
             Каталог пользователей очищен. Восстановление — из резервной копии
-            DC-MSK-3, заявка в смену инфраструктуры.
+            SI-MSK-3, заявка в смену инфраструктуры.
           </p>
         </div>
       ) : null}

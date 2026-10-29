@@ -9,7 +9,7 @@ export const Route = createFileRoute("/ops")({ component: OpsPage });
 
 const intro = `Linux app-prod-01 5.15.0-x86_64
 Сессия: root@bastion  uid=0
-Контур: DC-MSK-3 · учебный
+Контур: SI-MSK-3 · учебный
 Введите help, если нужна справка.`;
 
 function handleCommand(raw: string): { out: string; go?: boolean; clear?: boolean } {
@@ -73,7 +73,7 @@ function OpsPage() {
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-[11px] uppercase tracking-[0.16em] text-mist">
-              Meridian Cloud Shell
+              Связь-Информ · консоль
             </p>
             <h1 className="font-display mt-2 text-3xl tracking-tight md:text-4xl">
               Консоль сервера

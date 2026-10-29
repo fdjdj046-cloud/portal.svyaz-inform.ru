@@ -5,7 +5,7 @@ export type LabProgress = {
   shell: boolean;
 };
 
-const KEY = "meridian-lab-progress";
+const KEY = "svyaz-inform-lab-progress";
 
 const empty: LabProgress = {
   sso: false,
@@ -28,10 +28,10 @@ export function getProgress(): LabProgress {
 export function markProgress(patch: Partial<LabProgress>) {
   const next = { ...getProgress(), ...patch };
   window.localStorage.setItem(KEY, JSON.stringify(next));
-  window.dispatchEvent(new Event("meridian-progress"));
+  window.dispatchEvent(new Event("svyaz-inform-progress"));
 }
 
 export function resetProgress() {
   window.localStorage.removeItem(KEY);
-  window.dispatchEvent(new Event("meridian-progress"));
+  window.dispatchEvent(new Event("svyaz-inform-progress"));
 }

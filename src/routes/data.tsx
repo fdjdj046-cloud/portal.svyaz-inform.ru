@@ -42,13 +42,13 @@ function DataPage() {
       <HtmlComment text="Аутентификация: SELECT * FROM users WHERE login = '" />
       <div className="mx-auto max-w-6xl px-4 py-10 md:px-6 md:py-14">
         <p className="text-[11px] uppercase tracking-[0.16em] text-mist">
-          Производственный контур · DC-MSK-3
+          Абонентский контур · SI-MSK-3
         </p>
         <h1 className="font-display mt-2 text-4xl tracking-tight">
           Платформа данных
         </h1>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-mist">
-          Каталог промышленных витрин. Вход только для учёток с ролью
+          Каталог абонентских витрин. Вход только для учёток с ролью
           администратора баз.
         </p>
 

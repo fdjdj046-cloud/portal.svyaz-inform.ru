@@ -2,7 +2,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { BookOpen, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const KEY = "meridian-briefing-open";
+const KEY = "svyaz-inform-briefing-open";
 
 const steps = [
   {
